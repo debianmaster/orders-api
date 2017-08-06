@@ -43,7 +43,7 @@ class HomeRestController {
 		}
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/orders")
 	public String home(){
          return "<h1>"+hostname+"</h1>";
 	}
